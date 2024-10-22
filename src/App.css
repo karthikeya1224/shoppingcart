@@ -1,6 +1,8 @@
 .App {
-  color:rgb(160, 148, 248)
+  color:rgb(160, 148, 248);
+  
   /* background-color:darkgray */
+  
 
 }
 
@@ -27,20 +29,38 @@
 .App-products {
   display:flex;
   /* justify-content: space-evenly; */
-  flex-wrap:wrap
-  
-  
-
+  flex-wrap:wrap;
 
 }
 
 .App-item {
   padding: 10px;
-  border: 2px solid maroon;
-  margin:20px;
+  border: 1px solid rgb(103, 181, 255);
+  margin:10px;
+  width: 300px;
+  box-shadow: 2px 4px 4px rgb(202, 130, 247);
+  border-radius: 10px;
+  
+}
+.App-coffee{
+  height: 300px;
   width: 300px;
 
-
-
+  
+}
+.App-btn{
+  background-color: skyblue;
+  box-shadow: 2px 4px 4px lightblue;
+  border: 0px;
+  border-radius: 5px;
+  height: 40px;
+  width: 100px;
+  margin-top: 10px;
+}
+.App-side{
+  display: flex;
+  margin-top: 10px;
+  gap: 30px;
+  margin-left: 50px;
 }
 
