@@ -1,6 +1,6 @@
 .App {
   color:rgb(160, 148, 248)
-  background-color:darkgray
+  /* background-color:darkgray */
 
 }
 
@@ -12,7 +12,7 @@
 }
 
 .App-title {
-  color:maroon
+  color:rgb(74, 74, 166)
 }
 
 .App-menu{
